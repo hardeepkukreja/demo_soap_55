@@ -777,7 +777,7 @@
       <soap:address location="http://98.143.106.139:8282/ConsentManagementService/"/>
     </wsdl:port>
   </wsdl:service>
-</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://98.143.106.139:8282/ConsentManagementService/</con:endpoint></con:endpoints><con:operation id="7ca298d9-9066-435e-9543-c0cbe030846b" isOneWay="false" action="http://98.143.106.139:8282/ConsentManagementService" name="ConsentManagement" bindingOperationName="ConsentManagement" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="c8c01932-aa79-4467-b3d7-1a7b63564b95" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://98.143.106.139:8282/ConsentManagementService/</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.hipaat.com/schemas/cms/v2.3">\r
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://35.194.92.218:9081/cms</con:endpoint></con:endpoints><con:operation id="7ca298d9-9066-435e-9543-c0cbe030846b" isOneWay="false" action="http://98.143.106.139:8282/ConsentManagementService" name="ConsentManagement" bindingOperationName="ConsentManagement" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="c8c01932-aa79-4467-b3d7-1a7b63564b95" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://35.194.92.218:9081/cms</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.hipaat.com/schemas/cms/v2.3">\r
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <v2:ConsentManagementRequest>\r
@@ -3062,7 +3062,7 @@ declare namespace ns1='http://www.hipaat.com/schemas/cms/v2.3';
    <soapenv:Header/>
    <soapenv:Body>
       <v2:ConsentManagementRequest>
-         <v2:requestId>${=java.util.UUID.randomUUID()}</v2:requestId>
+         <v2:requestId>12345</v2:requestId>
          <v2:userId>talli</v2:userId>
          <v2:serviceDeliveryOrgId>160072759618</v2:serviceDeliveryOrgId>
          <v2:request>
