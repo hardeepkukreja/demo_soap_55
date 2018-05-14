@@ -2872,7 +2872,7 @@
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <v2:ConsentManagementRequest>\r
-         <v2:requestId>${=java.util.UUID.randomUUID()}</v2:requestId>\r
+         <v2:requestId>12345</v2:requestId>\r
          <v2:userId>talli</v2:userId>\r
          <v2:serviceDeliveryOrgId>160072759618</v2:serviceDeliveryOrgId>\r
          <v2:request>\r
